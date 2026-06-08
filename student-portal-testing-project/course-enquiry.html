@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Enquiry Form</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #000; color: #fff; min-height: 100vh; }
+    nav {
+      background: #0b0b0b;
+      border-bottom: 1px solid #222;
+      padding: 0 28px;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 64px;
+    }
+    .appName { font-size: 1.2rem; font-weight: 700; color: #fff; }
+    .nav-links a { color: #ddd; text-decoration: none; padding: 8px 12px; border-radius: 8px; font-size: 0.9rem; transition: background 0.15s; }
+    .nav-links a:hover { background: #222; color: #fff; }
+
+    .page-wrapper { display: flex; justify-content: center; padding: 48px 16px; }
+    .form-card {
+      background: #0b0b0b;
+      border: 1px solid #222;
+      border-radius: 12px;
+      padding: 36px;
+      width: 100%;
+      max-width: 560px;
+      box-shadow: 0 18px 36px rgba(0,0,0,0.6);
+    }
+    .form-card h1 { font-size: 1.6rem; font-weight: 700; color: #fff; margin-bottom: 22px; }
+    .form-group { margin-bottom: 16px; }
+    label { display: block; color: #ddd; font-size: 0.875rem; margin-bottom: 6px; font-weight: 500; }
+    input, select {
+      width: 100%;
+      padding: 12px 14px;
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    input::placeholder { color: #8b8b8b; }
+    input:focus, select:focus { border-color: #fff; }
+    select option { background: #111; color: #fff; }
+
+    .radio-group { display: flex; gap: 18px; }
+    .radio-label { display: flex; align-items: center; gap: 8px; color: #ddd; cursor: pointer; font-size: 0.9rem; }
+    .radio-label input { width: auto; }
+
+    .btn-submit {
+      width: 100%;
+      padding: 12px;
+      background: #fff;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 8px;
+      transition: opacity 0.15s;
+    }
+    .btn-submit:hover { opacity: 0.95; }
+    #ceErrorMsg { color: #f8f8f8; font-size: 0.85rem; margin-top: 12px; text-align: center; min-height: 20px; }
+    #ceSuccessMsg { color: #ddd; font-size: 0.9rem; margin-top: 12px; text-align: center; display: none; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <span class="appName">Student Portal</span>
+    <div class="nav-links">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="index.html">Logout</a>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+    <div class="form-card">
+      <h1>Course Enquiry Form</h1>
+      <form id="enquiryForm" novalidate>
+
+        <div class="form-group">
+          <label for="studentName">Student Name</label>
+          <input type="text" id="studentName" name="studentName" placeholder="Enter student name" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter email" />
+        </div>
+
+        <div class="form-group">
+          <label for="mobile">Mobile Number</label>
+          <input type="text" id="mobile" name="mobile" placeholder="Enter mobile number" />
+        </div>
+
+        <div class="form-group">
+          <label for="course">Select Course</label>
+          <select id="course" name="course">
+            <option value="">-- Select a Course --</option>
+            <option value="java_full_stack">Java Full Stack</option>
+            <option value="software_testing">Software Testing</option>
+            <option value="data_science">Data Science</option>
+            <option value="python">Python</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Learning Mode</label>
+          <div class="radio-group">
+            <label class="radio-label">
+              <input type="radio" name="learningMode" value="online" id="modeOnline" />
+              Online
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="learningMode" value="offline" id="modeOffline" />
+              Offline
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-submit" id="submitEnquiry">Submit Enquiry</button>
+        <p id="ceErrorMsg"></p>
+        <p id="ceSuccessMsg">Course enquiry submitted successfully</p>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('enquiryForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const errorMsg = document.getElementById('ceErrorMsg');
+      const successMsg = document.getElementById('ceSuccessMsg');
+      errorMsg.textContent = '';
+      successMsg.style.display = 'none';
+
+      const studentName = document.getElementById('studentName').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const mobile = document.getElementById('mobile').value.trim();
+      const course = document.getElementById('course').value;
+      const mode = document.querySelector('input[name="learningMode"]:checked');
+
+      if (!studentName) { errorMsg.textContent = 'Student name is required'; return; }
+      if (!email) { errorMsg.textContent = 'Email is required'; return; }
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) { errorMsg.textContent = 'Invalid email format'; return; }
+      if (!mobile) { errorMsg.textContent = 'Mobile is required'; return; }
+      if (!/^\d{10}$/.test(mobile)) { errorMsg.textContent = 'Mobile number should be exactly 10 digits'; return; }
+      if (!course) { errorMsg.textContent = 'Course is required'; return; }
+      if (!mode) { errorMsg.textContent = 'Learning mode is required'; return; }
+
+      successMsg.style.display = 'block';
+      this.reset();
+    });
+  </script>
+</body>
+</html>

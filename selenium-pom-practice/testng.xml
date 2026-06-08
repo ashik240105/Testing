@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Student Portal Test Suite" verbose="1">
+
+  <test name="Login Page Tests">
+    <classes>
+      <class name="com.testing.tests.LoginPageTest"/>
+    </classes>
+  </test>
+
+  <test name="Dashboard Page Tests">
+    <classes>
+      <class name="com.testing.tests.DashboardPageTest"/>
+    </classes>
+  </test>
+
+  <test name="Course Enquiry Page Tests">
+    <classes>
+      <class name="com.testing.tests.CourseEnquiryPageTest"/>
+    </classes>
+  </test>
+
+  <test name="Fee Calculator Page Tests">
+    <classes>
+      <class name="com.testing.tests.FeeCalculatorPageTest"/>
+    </classes>
+  </test>
+
+  <test name="Feedback Page Tests">
+    <classes>
+      <class name="com.testing.tests.FeedbackPageTest"/>
+    </classes>
+  </test>
+
+</suite>

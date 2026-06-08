@@ -1,0 +1,11 @@
+com\testing\base\BaseTest.class
+com\testing\pages\FeeCalculatorPage.class
+com\testing\pages\LoginPage.class
+com\testing\tests\CourseEnquiryPageTest.class
+com\testing\tests\LoginPageTest.class
+com\testing\pages\CourseEnquiryPage.class
+com\testing\pages\DashboardPage.class
+com\testing\tests\DashboardPageTest.class
+com\testing\pages\FeedbackPage.class
+com\testing\tests\FeeCalculatorPageTest.class
+com\testing\tests\FeedbackPageTest.class

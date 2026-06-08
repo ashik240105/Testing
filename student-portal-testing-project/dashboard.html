@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Dashboard</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #000; color: #fff; min-height: 100vh; }
+
+    /* Navbar */
+    nav {
+      background: #0b0b0b;
+      border-bottom: 1px solid #222;
+      padding: 0 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      position: sticky; top: 0; z-index: 100;
+    }
+    .appName { font-size: 1.2rem; font-weight: 700; color: #fff; }
+    .nav-links { display: flex; gap: 8px; align-items: center; }
+    .nav-links a { color: #ddd; text-decoration: none; padding: 8px 12px; border-radius: 8px; font-size: 0.9rem; transition: background 0.15s, color 0.15s; }
+    .nav-links a:hover { background: #222; color: #fff; }
+    #logoutLink { color: #ddd !important; border: 1px solid #333; }
+    #logoutLink:hover { background: #222 !important; }
+
+    /* Hero */
+    .hero { padding: 60px 32px 32px; text-align: center; }
+    .hero h1 { font-size: 2.4rem; font-weight: 800; color: #fff; }
+    .hero p { color: #bdbdbd; margin-top: 12px; font-size: 1rem; }
+
+    /* Cards */
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; padding: 32px; max-width: 1000px; margin: 0 auto; }
+    .card {
+      background: #0b0b0b;
+      border: 1px solid #222;
+      border-radius: 12px;
+      padding: 28px 20px;
+      text-align: center;
+      transition: transform 0.15s, border-color 0.15s;
+    }
+    .card:hover { transform: translateY(-4px); border-color: #444; }
+    .card-icon { font-size: 2.2rem; margin-bottom: 12px; }
+    .card h2 { font-size: 1.2rem; font-weight: 600; color: #fff; margin-bottom: 8px; }
+    .card p { color: #bdbdbd; font-size: 0.875rem; margin-bottom: 18px; line-height: 1.5; }
+    .card-btn { display: inline-block; padding: 10px 22px; background: #fff; color: #000; border: none; border-radius: 8px; font-size: 0.9rem; font-weight: 600; cursor: pointer; text-decoration: none; transition: opacity 0.15s, transform 0.08s; }
+    .card-btn:hover { opacity: 0.95; transform: translateY(-1px); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <span class="appName" id="appName">Student Portal</span>
+    <div class="nav-links">
+      <a href="course-enquiry.html" id="courseLink">Course Enquiry</a>
+      <a href="fee-calculator.html" id="feeLink">Fee Calculator</a>
+      <a href="feedback.html" id="feedbackLink">Feedback</a>
+      <a href="index.html" id="logoutLink">Logout</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h1>Welcome to Student Dashboard</h1>
+    <p>Explore your courses, calculate fees, and share your feedback.</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <div class="card-icon">📚</div>
+      <h2>Course Enquiry</h2>
+      <p>Browse available courses and submit your enquiry for enrollment details.</p>
+      <a href="course-enquiry.html" class="card-btn" id="courseCardBtn">Enquire Now</a>
+    </div>
+    <div class="card">
+      <div class="card-icon">💰</div>
+      <h2>Fee Calculator</h2>
+      <p>Calculate your course fee with applicable discounts quickly and accurately.</p>
+      <a href="fee-calculator.html" class="card-btn" id="feeCardBtn">Calculate Fee</a>
+    </div>
+    <div class="card">
+      <div class="card-icon">📝</div>
+      <h2>Feedback</h2>
+      <p>Share your experience and help us improve our programs and services.</p>
+      <a href="feedback.html" class="card-btn" id="feedbackCardBtn">Give Feedback</a>
+    </div>
+  </div>
+
+</body>
+</html>

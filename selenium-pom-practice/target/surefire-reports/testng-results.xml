@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="45" passed="43" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-06T15:41:59 IST" name="Student Portal Test Suite" finished-at="2026-06-06T15:44:23 IST" duration-ms="144154">
+    <groups>
+    </groups>
+    <test started-at="2026-06-06T15:41:59 IST" name="Login Page Tests" finished-at="2026-06-06T15:42:27 IST" duration-ms="27882">
+      <class name="com.testing.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:41:59 IST" name="setUp" finished-at="2026-06-06T15:42:03 IST" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:03 IST" name="openLoginPage" finished-at="2026-06-06T15:42:03 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="loginWithInvalidPassword()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:03 IST" name="loginWithInvalidPassword" description="LP_07 - Login with invalid password" finished-at="2026-06-06T15:42:06 IST" duration-ms="2665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:06 IST" name="tearDown" finished-at="2026-06-06T15:42:06 IST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:06 IST" name="setUp" finished-at="2026-06-06T15:42:07 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:07 IST" name="openLoginPage" finished-at="2026-06-06T15:42:08 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="loginWithInvalidUsername()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:08 IST" name="loginWithInvalidUsername" description="LP_06 - Login with invalid username" finished-at="2026-06-06T15:42:10 IST" duration-ms="2663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:10 IST" name="tearDown" finished-at="2026-06-06T15:42:11 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:11 IST" name="setUp" finished-at="2026-06-06T15:42:12 IST" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:12 IST" name="openLoginPage" finished-at="2026-06-06T15:42:12 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:12 IST" name="loginWithValidCredentials" description="LP_08 - Login with valid credentials" finished-at="2026-06-06T15:42:15 IST" duration-ms="2756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:15 IST" name="tearDown" finished-at="2026-06-06T15:42:15 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:15 IST" name="setUp" finished-at="2026-06-06T15:42:17 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:17 IST" name="openLoginPage" finished-at="2026-06-06T15:42:17 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="loginWithoutPassword()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:17 IST" name="loginWithoutPassword" description="LP_05 - Login without password" finished-at="2026-06-06T15:42:18 IST" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithoutPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:18 IST" name="tearDown" finished-at="2026-06-06T15:42:19 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:19 IST" name="setUp" finished-at="2026-06-06T15:42:20 IST" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:20 IST" name="openLoginPage" finished-at="2026-06-06T15:42:20 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="loginWithoutUsername()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:20 IST" name="loginWithoutUsername" description="LP_04 - Login without username" finished-at="2026-06-06T15:42:21 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithoutUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:21 IST" name="tearDown" finished-at="2026-06-06T15:42:21 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:21 IST" name="setUp" finished-at="2026-06-06T15:42:22 IST" duration-ms="1309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:22 IST" name="openLoginPage" finished-at="2026-06-06T15:42:22 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginPageTitle()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:22 IST" name="verifyLoginPageTitle" description="LP_01 - Verify login page title" finished-at="2026-06-06T15:42:23 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:23 IST" name="tearDown" finished-at="2026-06-06T15:42:23 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:23 IST" name="setUp" finished-at="2026-06-06T15:42:24 IST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:24 IST" name="openLoginPage" finished-at="2026-06-06T15:42:24 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyPasswordPlaceholder()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:24 IST" name="verifyPasswordPlaceholder" description="LP_03 - Verify password placeholder" finished-at="2026-06-06T15:42:24 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordPlaceholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:24 IST" name="tearDown" finished-at="2026-06-06T15:42:25 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:25 IST" name="setUp" finished-at="2026-06-06T15:42:26 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:26 IST" name="openLoginPage" finished-at="2026-06-06T15:42:26 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyUsernamePlaceholder()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:26 IST" name="verifyUsernamePlaceholder" description="LP_02 - Verify username placeholder" finished-at="2026-06-06T15:42:27 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsernamePlaceholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.LoginPageTest@5276e6b0]" started-at="2026-06-06T15:42:27 IST" name="tearDown" finished-at="2026-06-06T15:42:27 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.tests.LoginPageTest -->
+    </test> <!-- Login Page Tests -->
+    <test started-at="2026-06-06T15:42:27 IST" name="Dashboard Page Tests" finished-at="2026-06-06T15:42:49 IST" duration-ms="21624">
+      <class name="com.testing.tests.DashboardPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:27 IST" name="setUp" finished-at="2026-06-06T15:42:28 IST" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openDashboard()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:28 IST" name="openDashboard" finished-at="2026-06-06T15:42:29 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDashboard -->
+        <test-method signature="clickCourseCardButton()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:29 IST" name="clickCourseCardButton" description="DB_07 - Navigate to course-enquiry.html via card button" finished-at="2026-06-06T15:42:29 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCourseCardButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:29 IST" name="tearDown" finished-at="2026-06-06T15:42:30 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:30 IST" name="setUp" finished-at="2026-06-06T15:42:31 IST" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openDashboard()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:31 IST" name="openDashboard" finished-at="2026-06-06T15:42:31 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDashboard -->
+        <test-method signature="clickCourseNavLink()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:31 IST" name="clickCourseNavLink" description="DB_03 - Navigate to course-enquiry.html via navbar" finished-at="2026-06-06T15:42:32 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCourseNavLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:32 IST" name="tearDown" finished-at="2026-06-06T15:42:32 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:32 IST" name="setUp" finished-at="2026-06-06T15:42:33 IST" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openDashboard()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:33 IST" name="openDashboard" finished-at="2026-06-06T15:42:34 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDashboard -->
+        <test-method signature="clickFeeCardButton()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:34 IST" name="clickFeeCardButton" description="DB_08 - Navigate to fee-calculator.html via card button" finished-at="2026-06-06T15:42:34 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFeeCardButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:34 IST" name="tearDown" finished-at="2026-06-06T15:42:35 IST" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:35 IST" name="setUp" finished-at="2026-06-06T15:42:36 IST" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openDashboard()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:36 IST" name="openDashboard" finished-at="2026-06-06T15:42:36 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDashboard -->
+        <test-method signature="clickFeeNavLink()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:36 IST" name="clickFeeNavLink" description="DB_04 - Navigate to fee-calculator.html via navbar" finished-at="2026-06-06T15:42:37 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFeeNavLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:37 IST" name="tearDown" finished-at="2026-06-06T15:42:37 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:37 IST" name="setUp" finished-at="2026-06-06T15:42:38 IST" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openDashboard()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:38 IST" name="openDashboard" finished-at="2026-06-06T15:42:39 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDashboard -->
+        <test-method signature="clickFeedbackCardButton()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:39 IST" name="clickFeedbackCardButton" description="DB_09 - Navigate to feedback.html via card button" finished-at="2026-06-06T15:42:39 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFeedbackCardButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:39 IST" name="tearDown" finished-at="2026-06-06T15:42:39 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:39 IST" name="setUp" finished-at="2026-06-06T15:42:41 IST" duration-ms="1460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openDashboard()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:41 IST" name="openDashboard" finished-at="2026-06-06T15:42:41 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDashboard -->
+        <test-method signature="clickFeedbackNavLink()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:41 IST" name="clickFeedbackNavLink" description="DB_05 - Navigate to feedback.html via navbar" finished-at="2026-06-06T15:42:42 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFeedbackNavLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:42 IST" name="tearDown" finished-at="2026-06-06T15:42:42 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:42 IST" name="setUp" finished-at="2026-06-06T15:42:43 IST" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openDashboard()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:43 IST" name="openDashboard" finished-at="2026-06-06T15:42:43 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDashboard -->
+        <test-method signature="clickLogoutLink()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:43 IST" name="clickLogoutLink" description="DB_06 - Navigate to index.html via logout" finished-at="2026-06-06T15:42:44 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogoutLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:44 IST" name="tearDown" finished-at="2026-06-06T15:42:44 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:44 IST" name="setUp" finished-at="2026-06-06T15:42:46 IST" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openDashboard()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:46 IST" name="openDashboard" finished-at="2026-06-06T15:42:46 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDashboard -->
+        <test-method signature="verifyAppName()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:46 IST" name="verifyAppName" description="DB_02 - Verify app name" finished-at="2026-06-06T15:42:46 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:46 IST" name="tearDown" finished-at="2026-06-06T15:42:46 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:46 IST" name="setUp" finished-at="2026-06-06T15:42:48 IST" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openDashboard()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:48 IST" name="openDashboard" finished-at="2026-06-06T15:42:48 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDashboard -->
+        <test-method signature="verifyDashboardTitle()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:48 IST" name="verifyDashboardTitle" description="DB_01 - Verify dashboard page title" finished-at="2026-06-06T15:42:48 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.DashboardPageTest@c267ef4]" started-at="2026-06-06T15:42:48 IST" name="tearDown" finished-at="2026-06-06T15:42:49 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.tests.DashboardPageTest -->
+    </test> <!-- Dashboard Page Tests -->
+    <test started-at="2026-06-06T15:42:49 IST" name="Course Enquiry Page Tests" finished-at="2026-06-06T15:43:31 IST" duration-ms="42522">
+      <class name="com.testing.tests.CourseEnquiryPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:42:49 IST" name="setUp" finished-at="2026-06-06T15:42:50 IST" duration-ms="1476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:42:50 IST" name="openPage" finished-at="2026-06-06T15:42:50 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="submitInvalidEmail()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:42:50 IST" name="submitInvalidEmail" description="CE_07 - Submit invalid email" finished-at="2026-06-06T15:42:53 IST" duration-ms="2855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:42:53 IST" name="tearDown" finished-at="2026-06-06T15:42:53 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:42:53 IST" name="setUp" finished-at="2026-06-06T15:42:55 IST" duration-ms="1458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:42:55 IST" name="openPage" finished-at="2026-06-06T15:42:55 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="submitInvalidMobile()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:42:55 IST" name="submitInvalidMobile" description="CE_08 - Submit invalid mobile number" finished-at="2026-06-06T15:42:59 IST" duration-ms="3937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitInvalidMobile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:42:59 IST" name="tearDown" finished-at="2026-06-06T15:43:00 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:00 IST" name="setUp" finished-at="2026-06-06T15:43:01 IST" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:01 IST" name="openPage" finished-at="2026-06-06T15:43:01 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="submitValidEnquiry()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:01 IST" name="submitValidEnquiry" description="CE_11 - Submit valid enquiry" finished-at="2026-06-06T15:43:05 IST" duration-ms="4170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitValidEnquiry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:05 IST" name="tearDown" finished-at="2026-06-06T15:43:06 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:06 IST" name="setUp" finished-at="2026-06-06T15:43:07 IST" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:07 IST" name="openPage" finished-at="2026-06-06T15:43:07 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="submitWithoutCourse()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:07 IST" name="submitWithoutCourse" description="CE_09 - Submit without course selection" finished-at="2026-06-06T15:43:11 IST" duration-ms="3843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWithoutCourse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:11 IST" name="tearDown" finished-at="2026-06-06T15:43:12 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:12 IST" name="setUp" finished-at="2026-06-06T15:43:13 IST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:13 IST" name="openPage" finished-at="2026-06-06T15:43:13 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="submitWithoutEmail()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:13 IST" name="submitWithoutEmail" description="CE_06 - Submit without email" finished-at="2026-06-06T15:43:15 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWithoutEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:15 IST" name="tearDown" finished-at="2026-06-06T15:43:15 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:15 IST" name="setUp" finished-at="2026-06-06T15:43:16 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:16 IST" name="openPage" finished-at="2026-06-06T15:43:17 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="submitWithoutLearningMode()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:17 IST" name="submitWithoutLearningMode" description="CE_10 - Submit without learning mode" finished-at="2026-06-06T15:43:20 IST" duration-ms="3843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWithoutLearningMode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:20 IST" name="tearDown" finished-at="2026-06-06T15:43:21 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:21 IST" name="setUp" finished-at="2026-06-06T15:43:22 IST" duration-ms="1399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:22 IST" name="openPage" finished-at="2026-06-06T15:43:22 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="submitWithoutStudentName()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:22 IST" name="submitWithoutStudentName" description="CE_05 - Submit without student name" finished-at="2026-06-06T15:43:23 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWithoutStudentName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:23 IST" name="tearDown" finished-at="2026-06-06T15:43:23 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:23 IST" name="setUp" finished-at="2026-06-06T15:43:24 IST" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:24 IST" name="openPage" finished-at="2026-06-06T15:43:24 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyEmailPlaceholder()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:24 IST" name="verifyEmailPlaceholder" description="CE_03 - Verify email placeholder" finished-at="2026-06-06T15:43:25 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailPlaceholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:25 IST" name="tearDown" finished-at="2026-06-06T15:43:25 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:25 IST" name="setUp" finished-at="2026-06-06T15:43:26 IST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:26 IST" name="openPage" finished-at="2026-06-06T15:43:27 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyMobilePlaceholder()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:27 IST" name="verifyMobilePlaceholder" description="CE_04 - Verify mobile placeholder" finished-at="2026-06-06T15:43:27 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMobilePlaceholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:27 IST" name="tearDown" finished-at="2026-06-06T15:43:27 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:27 IST" name="setUp" finished-at="2026-06-06T15:43:28 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:28 IST" name="openPage" finished-at="2026-06-06T15:43:29 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:29 IST" name="verifyPageTitle" description="CE_01 - Verify Course Enquiry page title" finished-at="2026-06-06T15:43:29 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:29 IST" name="tearDown" finished-at="2026-06-06T15:43:29 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:29 IST" name="setUp" finished-at="2026-06-06T15:43:31 IST" duration-ms="1438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:31 IST" name="openPage" finished-at="2026-06-06T15:43:31 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyStudentNamePlaceholder()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:31 IST" name="verifyStudentNamePlaceholder" description="CE_02 - Verify student name placeholder" finished-at="2026-06-06T15:43:31 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStudentNamePlaceholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.CourseEnquiryPageTest@31368b99]" started-at="2026-06-06T15:43:31 IST" name="tearDown" finished-at="2026-06-06T15:43:31 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.tests.CourseEnquiryPageTest -->
+    </test> <!-- Course Enquiry Page Tests -->
+    <test started-at="2026-06-06T15:43:31 IST" name="Fee Calculator Page Tests" finished-at="2026-06-06T15:43:57 IST" duration-ms="25856">
+      <class name="com.testing.tests.FeeCalculatorPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:31 IST" name="setUp" finished-at="2026-06-06T15:43:32 IST" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:32 IST" name="openPage" finished-at="2026-06-06T15:43:33 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="calculateJavaFullStackFee()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:33 IST" name="calculateJavaFullStackFee" description="FC_08 - Calculate Java Full Stack fee with 10% discount" finished-at="2026-06-06T15:43:34 IST" duration-ms="1572" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected final fee to be Rs.27000. Got: Final Fee: Rs.27000 expected [Final Fee: Rs.27000.0] but found [Final Fee: Rs.27000]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected final fee to be Rs.27000. Got: Final Fee: Rs.27000 expected [Final Fee: Rs.27000.0] but found [Final Fee: Rs.27000]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.testing.tests.FeeCalculatorPageTest.calculateJavaFullStackFee(FeeCalculatorPageTest.java:91)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateJavaFullStackFee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:34 IST" name="tearDown" finished-at="2026-06-06T15:43:34 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:34 IST" name="setUp" finished-at="2026-06-06T15:43:36 IST" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:36 IST" name="openPage" finished-at="2026-06-06T15:43:36 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="calculateSoftwareTestingFee()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:36 IST" name="calculateSoftwareTestingFee" description="FC_09 - Calculate Software Testing fee with 20% discount" finished-at="2026-06-06T15:43:38 IST" duration-ms="1630" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected final fee to be Rs.20000. Got: Final Fee: Rs.20000 expected [Final Fee: Rs.20000.0] but found [Final Fee: Rs.20000]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected final fee to be Rs.20000. Got: Final Fee: Rs.20000 expected [Final Fee: Rs.20000.0] but found [Final Fee: Rs.20000]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.testing.tests.FeeCalculatorPageTest.calculateSoftwareTestingFee(FeeCalculatorPageTest.java:102)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateSoftwareTestingFee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:38 IST" name="tearDown" finished-at="2026-06-06T15:43:38 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:38 IST" name="setUp" finished-at="2026-06-06T15:43:39 IST" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:39 IST" name="openPage" finished-at="2026-06-06T15:43:39 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="calculateWithoutCourse()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:39 IST" name="calculateWithoutCourse" description="FC_03 - Calculate without selecting course" finished-at="2026-06-06T15:43:40 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateWithoutCourse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:40 IST" name="tearDown" finished-at="2026-06-06T15:43:40 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:40 IST" name="setUp" finished-at="2026-06-06T15:43:41 IST" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:41 IST" name="openPage" finished-at="2026-06-06T15:43:41 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="calculateWithoutDiscount()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:41 IST" name="calculateWithoutDiscount" description="FC_04 - Calculate without entering discount" finished-at="2026-06-06T15:43:42 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateWithoutDiscount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:42 IST" name="tearDown" finished-at="2026-06-06T15:43:42 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:42 IST" name="setUp" finished-at="2026-06-06T15:43:43 IST" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:43 IST" name="openPage" finished-at="2026-06-06T15:43:44 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="enterAlphabetDiscount()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:44 IST" name="enterAlphabetDiscount" description="FC_05 - Enter alphabet in discount field" finished-at="2026-06-06T15:43:45 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAlphabetDiscount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:45 IST" name="tearDown" finished-at="2026-06-06T15:43:46 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:46 IST" name="setUp" finished-at="2026-06-06T15:43:47 IST" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:47 IST" name="openPage" finished-at="2026-06-06T15:43:47 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="enterDiscountAboveFifty()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:47 IST" name="enterDiscountAboveFifty" description="FC_07 - Enter discount above 50" finished-at="2026-06-06T15:43:49 IST" duration-ms="1583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDiscountAboveFifty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:49 IST" name="tearDown" finished-at="2026-06-06T15:43:49 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:49 IST" name="setUp" finished-at="2026-06-06T15:43:51 IST" duration-ms="1474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:51 IST" name="openPage" finished-at="2026-06-06T15:43:51 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="enterDiscountBelowZero()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:51 IST" name="enterDiscountBelowZero" description="FC_06 - Enter discount below 0" finished-at="2026-06-06T15:43:52 IST" duration-ms="1614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDiscountBelowZero -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:52 IST" name="tearDown" finished-at="2026-06-06T15:43:53 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:53 IST" name="setUp" finished-at="2026-06-06T15:43:54 IST" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:54 IST" name="openPage" finished-at="2026-06-06T15:43:54 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyDiscountPlaceholder()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:54 IST" name="verifyDiscountPlaceholder" description="FC_02 - Verify discount placeholder" finished-at="2026-06-06T15:43:55 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDiscountPlaceholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:55 IST" name="tearDown" finished-at="2026-06-06T15:43:55 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:55 IST" name="setUp" finished-at="2026-06-06T15:43:56 IST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:56 IST" name="openPage" finished-at="2026-06-06T15:43:57 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:57 IST" name="verifyPageTitle" description="FC_01 - Verify Fee Calculator page title" finished-at="2026-06-06T15:43:57 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeeCalculatorPageTest@39529185]" started-at="2026-06-06T15:43:57 IST" name="tearDown" finished-at="2026-06-06T15:43:57 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.tests.FeeCalculatorPageTest -->
+    </test> <!-- Fee Calculator Page Tests -->
+    <test started-at="2026-06-06T15:43:57 IST" name="Feedback Page Tests" finished-at="2026-06-06T15:44:23 IST" duration-ms="26166">
+      <class name="com.testing.tests.FeedbackPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:43:57 IST" name="setUp" finished-at="2026-06-06T15:43:58 IST" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:43:58 IST" name="openPage" finished-at="2026-06-06T15:43:59 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="submitShortComment()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:43:59 IST" name="submitShortComment" description="FB_06 - Submit comment shorter than 10 characters" finished-at="2026-06-06T15:44:01 IST" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitShortComment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:01 IST" name="tearDown" finished-at="2026-06-06T15:44:02 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:02 IST" name="setUp" finished-at="2026-06-06T15:44:03 IST" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:03 IST" name="openPage" finished-at="2026-06-06T15:44:03 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="submitValidFeedback()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:03 IST" name="submitValidFeedback" description="FB_08 - Submit valid feedback" finished-at="2026-06-06T15:44:06 IST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitValidFeedback -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:06 IST" name="tearDown" finished-at="2026-06-06T15:44:07 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:07 IST" name="setUp" finished-at="2026-06-06T15:44:08 IST" duration-ms="1478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:08 IST" name="openPage" finished-at="2026-06-06T15:44:08 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="submitWithoutConfirmation()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:08 IST" name="submitWithoutConfirmation" description="FB_07 - Submit without confirmation checkbox" finished-at="2026-06-06T15:44:11 IST" duration-ms="2933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWithoutConfirmation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:11 IST" name="tearDown" finished-at="2026-06-06T15:44:12 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:12 IST" name="setUp" finished-at="2026-06-06T15:44:13 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:13 IST" name="openPage" finished-at="2026-06-06T15:44:13 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="submitWithoutRating()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:13 IST" name="submitWithoutRating" description="FB_05 - Submit without rating" finished-at="2026-06-06T15:44:15 IST" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWithoutRating -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:15 IST" name="tearDown" finished-at="2026-06-06T15:44:15 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:15 IST" name="setUp" finished-at="2026-06-06T15:44:16 IST" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:16 IST" name="openPage" finished-at="2026-06-06T15:44:16 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="submitWithoutStudentName()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:16 IST" name="submitWithoutStudentName" description="FB_04 - Submit without student name" finished-at="2026-06-06T15:44:17 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWithoutStudentName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:17 IST" name="tearDown" finished-at="2026-06-06T15:44:17 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:17 IST" name="setUp" finished-at="2026-06-06T15:44:19 IST" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:19 IST" name="openPage" finished-at="2026-06-06T15:44:19 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyCommentsPlaceholder()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:19 IST" name="verifyCommentsPlaceholder" description="FB_03 - Verify comments placeholder" finished-at="2026-06-06T15:44:19 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCommentsPlaceholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:19 IST" name="tearDown" finished-at="2026-06-06T15:44:19 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:19 IST" name="setUp" finished-at="2026-06-06T15:44:21 IST" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:21 IST" name="openPage" finished-at="2026-06-06T15:44:21 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:21 IST" name="verifyPageTitle" description="FB_01 - Verify Feedback page title" finished-at="2026-06-06T15:44:21 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:21 IST" name="tearDown" finished-at="2026-06-06T15:44:21 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:21 IST" name="setUp" finished-at="2026-06-06T15:44:23 IST" duration-ms="1201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:23 IST" name="openPage" finished-at="2026-06-06T15:44:23 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyStudentNamePlaceholder()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:23 IST" name="verifyStudentNamePlaceholder" description="FB_02 - Verify student name placeholder" finished-at="2026-06-06T15:44:23 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStudentNamePlaceholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.tests.FeedbackPageTest@28eaa59a]" started-at="2026-06-06T15:44:23 IST" name="tearDown" finished-at="2026-06-06T15:44:23 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.tests.FeedbackPageTest -->
+    </test> <!-- Feedback Page Tests -->
+  </suite> <!-- Student Portal Test Suite -->
+</testng-results>

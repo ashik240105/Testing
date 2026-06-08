@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Feedback Form</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #000; color: #fff; min-height: 100vh; }
+    nav {
+      background: #0b0b0b;
+      border-bottom: 1px solid #222;
+      padding: 0 28px;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 64px;
+    }
+    .appName { font-size: 1.2rem; font-weight: 700; color: #fff; }
+    .nav-links a { color: #ddd; text-decoration: none; padding: 8px 12px; border-radius: 8px; font-size: 0.9rem; transition: background 0.15s; }
+    .nav-links a:hover { background: #222; color: #fff; }
+
+    .page-wrapper { display: flex; justify-content: center; padding: 48px 16px; }
+    .form-card {
+      background: #0b0b0b;
+      border: 1px solid #222;
+      border-radius: 12px;
+      padding: 36px;
+      width: 100%;
+      max-width: 560px;
+      box-shadow: 0 18px 36px rgba(0,0,0,0.6);
+    }
+    .form-card h1 { font-size: 1.6rem; font-weight: 700; color: #fff; margin-bottom: 22px; }
+    .form-group { margin-bottom: 16px; }
+    label { display: block; color: #ddd; font-size: 0.875rem; margin-bottom: 6px; font-weight: 500; }
+    input[type="text"], select, textarea {
+      width: 100%;
+      padding: 12px 14px;
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.15s;
+      font-family: inherit;
+    }
+    input[type="text"]::placeholder, textarea::placeholder { color: #8b8b8b; }
+    input[type="text"]:focus, select:focus, textarea:focus { border-color: #fff; }
+    select option { background: #111; color: #fff; }
+    textarea { resize: vertical; min-height: 100px; }
+
+    .checkbox-label { display: flex; align-items: center; gap: 10px; color: #ddd; cursor: pointer; font-size: 0.9rem; }
+    .checkbox-label input { width: auto; }
+
+    .btn-submit {
+      width: 100%;
+      padding: 12px;
+      background: #fff;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 8px;
+      transition: opacity 0.15s;
+    }
+    .btn-submit:hover { opacity: 0.95; }
+    #fbErrorMsg { color: #f8f8f8; font-size: 0.85rem; margin-top: 12px; text-align: center; min-height: 20px; }
+    #fbSuccessMsg { color: #ddd; font-size: 0.9rem; margin-top: 12px; text-align: center; display: none; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <span class="appName">Student Portal</span>
+    <div class="nav-links">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="index.html">Logout</a>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+    <div class="form-card">
+      <h1>Student Feedback Form</h1>
+      <form id="feedbackForm" novalidate>
+
+        <div class="form-group">
+          <label for="studentName">Student Name</label>
+          <input type="text" id="studentName" name="studentName" placeholder="Enter student name" />
+        </div>
+
+        <div class="form-group">
+          <label for="rating">Rating</label>
+          <select id="rating" name="rating">
+            <option value="">-- Select Rating --</option>
+            <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+            <option value="4">⭐⭐⭐⭐ Good</option>
+            <option value="3">⭐⭐⭐ Average</option>
+            <option value="2">⭐⭐ Below Average</option>
+            <option value="1">⭐ Poor</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="comments">Comments</label>
+          <textarea id="comments" name="comments" placeholder="Enter your comments"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="checkbox-label">
+            <input type="checkbox" id="confirm" name="confirm" />
+            I confirm that the above feedback is accurate
+          </label>
+        </div>
+
+        <button type="submit" class="btn-submit" id="submitFeedback">Submit Feedback</button>
+        <p id="fbErrorMsg"></p>
+        <p id="fbSuccessMsg">Feedback submitted successfully</p>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('feedbackForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const errorMsg = document.getElementById('fbErrorMsg');
+      const successMsg = document.getElementById('fbSuccessMsg');
+      errorMsg.textContent = '';
+      successMsg.style.display = 'none';
+
+      const studentName = document.getElementById('studentName').value.trim();
+      const rating = document.getElementById('rating').value;
+      const comments = document.getElementById('comments').value.trim();
+      const confirm = document.getElementById('confirm').checked;
+
+      if (!studentName) { errorMsg.textContent = 'Student name is required'; return; }
+      if (!rating)      { errorMsg.textContent = 'Rating is required'; return; }
+      if (comments.length < 10) { errorMsg.textContent = 'Comments should be minimum 10 characters'; return; }
+      if (!confirm)     { errorMsg.textContent = 'Please confirm your feedback'; return; }
+
+      successMsg.style.display = 'block';
+      this.reset();
+    });
+  </script>
+</body>
+</html>
